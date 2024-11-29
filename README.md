@@ -17,38 +17,34 @@ This dataset also offers a great opportunity for data enthusiasts to explore fur
 ## Features of the Dataset
 
 The dataset contains multiple features related to passengers' flight experiences, including:
+# Dataset Columns and Descriptions
 
-<center>
-<div dir=rtl style="direction: rtl;line-height:200%;font-family:vazir;font-size:medium">
-<font face="vazir" size=3>
-| <b>ستون</b> | <b>توضیحات</b> |
-| :---: | :---: |
-| <code>Gender</code> | جنسیت مسافر |
-| <code>Customer Type</code> | نوع مسافر (از نظر وفاداری) |
-| <code>Age</code> | سن مسافر |
-| <code>Type of Travel</code> | نوع سفر (کاری یا تفریحی) |
-| <code>Class</code> | کلاس پرواز |
-| <code>Flight Distance</code> | مسافت پرواز |
-| <code>Inflight wifi service</code> | رضایت از امکانات وای‌فای در هنگام پرواز (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Departure/Arrival time convenient</code> | رضایت از زمان حرکت/رسیدن پرواز (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Ease of Online booking</code> | رضایت از راحتی رزرو آنلاین (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Gate location</code> | رضایت از موقعیت گِیت پرواز (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Food and drink</code> | رضایت از غذا و نوشیدنی‌های ارائه‌شده (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Online boarding</code> | رضایت از بوردینگ آنلاین (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Seat comfort</code> | رضایت از راحتی صندلی (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Inflight entertainment</code> | رضایت از امکانات سرگرمی در هنگام پرواز (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>On-board service</code> | رضایت از خدمات ارائه‌شده در هنگام پرواز (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Leg room service</code> | رضایت از فضای پا (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Baggage handling</code> | رضایت از خدمات باربری (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Checkin service</code> | رضایت از خدمات چک‌این (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Inflight service</code> | رضایت از خدمات ارائه‌شده در هنگام پرواز (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Cleanliness</code> | رضایت از تمیزی هواپیما (۰ به‌معنی عدم نظر - از ۱ تا ۵) |
-| <code>Departure Delay in Minutes</code> | تاخیر حرکت (دقیقه) |
-| <code>Arrival Delay in Minutes</code> | تاخیر رسیدن (دقیقه) |
-| <code>satisfaction</code> | رضایت مسافران (رضایت: ‌<code>satisfied</code>، عدم رضایت یا خنثی: <code>neutral or dissatisfied</code>) |
-</font>
-</div>
-</center>
+| **Column**                  | **Description**                                                                 |
+|-----------------------------|---------------------------------------------------------------------------------|
+| `Gender`                   | Gender of the passenger                                                        |
+| `Customer Type`            | Type of passenger (based on loyalty)                                           |
+| `Age`                      | Age of the passenger                                                          |
+| `Type of Travel`           | Type of travel (business or leisure)                                          |
+| `Class`                    | Flight class                                                                  |
+| `Flight Distance`          | Distance of the flight                                                        |
+| `Inflight wifi service`    | Satisfaction with in-flight Wi-Fi (0 = no opinion, 1-5 = satisfaction levels)  |
+| `Departure/Arrival time convenient` | Satisfaction with departure/arrival time (0 = no opinion, 1-5 = satisfaction levels) |
+| `Ease of Online booking`   | Satisfaction with ease of online booking (0 = no opinion, 1-5 = satisfaction levels) |
+| `Gate location`            | Satisfaction with gate location (0 = no opinion, 1-5 = satisfaction levels)    |
+| `Food and drink`           | Satisfaction with food and drink (0 = no opinion, 1-5 = satisfaction levels)   |
+| `Online boarding`          | Satisfaction with online boarding (0 = no opinion, 1-5 = satisfaction levels) |
+| `Seat comfort`             | Satisfaction with seat comfort (0 = no opinion, 1-5 = satisfaction levels)    |
+| `Inflight entertainment`   | Satisfaction with in-flight entertainment (0 = no opinion, 1-5 = satisfaction levels) |
+| `On-board service`         | Satisfaction with on-board service (0 = no opinion, 1-5 = satisfaction levels) |
+| `Leg room service`         | Satisfaction with legroom (0 = no opinion, 1-5 = satisfaction levels)         |
+| `Baggage handling`         | Satisfaction with baggage handling (0 = no opinion, 1-5 = satisfaction levels) |
+| `Checkin service`          | Satisfaction with check-in service (0 = no opinion, 1-5 = satisfaction levels) |
+| `Inflight service`         | Satisfaction with in-flight service (0 = no opinion, 1-5 = satisfaction levels) |
+| `Cleanliness`              | Satisfaction with cleanliness of the airplane (0 = no opinion, 1-5 = satisfaction levels) |
+| `Departure Delay in Minutes` | Delay in departure (in minutes)                                               |
+| `Arrival Delay in Minutes` | Delay in arrival (in minutes)                                                 |
+| `satisfaction`             | Passenger satisfaction (`satisfied` or `neutral or dissatisfied`)             |
+
 
 ---
 
